@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module anonymous-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="58" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="7" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="110" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="0.527" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.064" level="0" />
+<weighted_methods_per_class_unity value="7" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="0" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>Generate_Signal(const timer_instance_t *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="pwm_thread_handler.c" line="39" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="pwm_thread_handler.h" line="64" />
+</extent>
+<lines_of_code value="11" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="49" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>Initialize_PWM_Timer(const timer_instance_t *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="pwm_thread_handler.c" line="53" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="pwm_thread_handler.h" line="72" />
+</extent>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>Parse_PWM_Data(uint16_t)</name>
+<extent>
+<description>definition</description>
+<source_reference file="pwm_thread_handler.c" line="76" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="pwm_thread_handler.h" line="97" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="11" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>Receive_Message(void)</name>
+<extent>
+<description>definition</description>
+<source_reference file="pwm_thread_handler.c" line="31" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="pwm_thread_handler.h" line="87" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="8" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>Send_Duty_Cycle(void)</name>
+<extent>
+<description>definition</description>
+<source_reference file="pwm_thread_handler.c" line="90" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="pwm_thread_handler.h" line="104" />
+</extent>
+<lines_of_code value="5" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="8" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>Stop_Timer(const timer_instance_t *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="pwm_thread_handler.c" line="64" />
+</extent>
+<extent>
+<description>declaration</description>
+<source_reference file="pwm_thread_handler.h" line="80" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>pwm_thread_entry(void)</name>
+<extent>
+<description>definition</description>
+<source_reference file="pwm_thread_entry.c" line="21" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="16" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>anonymous</name>
+<client_module>
+</client_module>
+<supplier_module>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

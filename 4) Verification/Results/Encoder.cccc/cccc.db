@@ -1,0 +1,29 @@
+CCCC_Module@anonymous@@
+CCCC_Module@char@builtin@
+CCCC_ModExt@char@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@double@builtin@
+CCCC_ModExt@double@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@float@builtin@
+CCCC_ModExt@float@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@int@builtin@
+CCCC_ModExt@int@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@long@builtin@
+CCCC_ModExt@long@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@void@builtin@
+CCCC_ModExt@void@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Member@anonymous@Convert_Ms_To_Min@@(uint16_t)@
+CCCC_MemExt@anonymous@Convert_Ms_To_Min@@(uint16_t)@Encoder_Handler.c@21@definition@F????@LOC:4 COM:3 MVG:1@?@d@
+CCCC_MemExt@anonymous@Convert_Ms_To_Min@@(uint16_t)@Encoder_Handler.h@63@declaration@F???0@LOC:1 COM:11 MVG:0@0@D@
+CCCC_Member@anonymous@Encoder_Thread_entry@@(void)@
+CCCC_MemExt@anonymous@Encoder_Thread_entry@@(void)@Encoder_Thread_entry.c@16@definition@F????@LOC:10 COM:1 MVG:1@?@d@
+CCCC_Member@anonymous@Initialize_Interrupt@@(const external_irq_instance_t *)@
+CCCC_MemExt@anonymous@Initialize_Interrupt@@(const external_irq_instance_t *)@Encoder_Handler.c@38@definition@F????@LOC:7 COM:3 MVG:1@?@d@
+CCCC_MemExt@anonymous@Initialize_Interrupt@@(const external_irq_instance_t *)@Encoder_Handler.h@80@declaration@F???0@LOC:1 COM:7 MVG:0@0@D@
+CCCC_Member@anonymous@Send_RPM@@(uint16_t)@
+CCCC_MemExt@anonymous@Send_RPM@@(uint16_t)@Encoder_Handler.c@29@definition@F????@LOC:5 COM:3 MVG:0@?@d@
+CCCC_MemExt@anonymous@Send_RPM@@(uint16_t)@Encoder_Handler.h@70@declaration@F???0@LOC:1 COM:5 MVG:0@0@D@
+CCCC_Member@anonymous@process_Encoder_Signal_Received@@(external_irq_callback_args_t *)@
+CCCC_MemExt@anonymous@process_Encoder_Signal_Received@@(external_irq_callback_args_t *)@Encoder_Thread_entry.c@31@definition@F????@LOC:10 COM:3 MVG:1@?@d@
+CCCC_RejExt@Encoder_Handler.c@1@<file scope items>@F????@LOC:1 COM:11 MVG:0@?@r@
+CCCC_RejExt@Encoder_Handler.h@1@<file scope items>@F???0@LOC:7 COM:31 MVG:0@0@r@
+CCCC_RejExt@Encoder_Thread_entry.c@1@<file scope items>@F????@LOC:2 COM:8 MVG:0@?@r@
